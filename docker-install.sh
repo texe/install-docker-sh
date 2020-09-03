@@ -18,7 +18,3 @@ sudo apt-get install docker docker-compose
 
 # add the user system to docker group (restart required)
 sudo usermod -aG docker $USER
-
-# prints docker version
-docker -v
-docker-compose -v
